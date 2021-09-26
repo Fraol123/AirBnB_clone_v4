@@ -1,7 +1,6 @@
 $(() => {
   console.log('loaded');
    const checkedAmenities = {};
-    const list = [];
   $(':checkbox').change(function () {
 
     if (this.checked) {
